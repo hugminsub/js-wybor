@@ -1,7 +1,8 @@
 
-let anwser = document.getElementById("odpowiedz").value
 document.getElementById("check").addEventListener("click", function(){
-	if (anwser.toLowerCase() == "b"){  
+	let correct = "b"
+	let anwser = document.getElementById("odpowiedz").value
+	if (anwser.toLowerCase() == correct ){  
 	alert("dobrze")
 }
 else
